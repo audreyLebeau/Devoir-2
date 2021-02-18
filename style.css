@@ -1,0 +1,44 @@
+.main {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 10vw;
+}
+
+.title, .soustitre, .paragraphe {
+    font-family: 'Pacifico', cursive;
+    background-color: white;
+    padding: 10px;
+    color: black;
+}
+
+.title {
+    display: inline-block;
+    font-size: 30px;
+}
+
+.galerie {
+    width: 10vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.title {
+    display: inline-block;
+    font-size: 30px;
+}
+
+.paragraphe {
+    display: inline-block
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.soustitre {
+    width: 20vw;
+}
+
+.video {
+    width: 30vw;
+}
