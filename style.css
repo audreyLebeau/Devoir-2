@@ -4,14 +4,11 @@
     margin-top: 10vw;
 }
 
-.titre, .paragraphe, .carte-description {
+.titre, .paragraphe {
     font-family: 'Rubik', sans-serif;
     background-color: white;
     padding: 10px;
     color: black;
-}
-
-.titre {
     display: inline-block;
     font-size: 30px;
     margin-top: 40px;
@@ -20,27 +17,17 @@
     box-shadow: 5px 10px grey;
 }
 
-.paragraphe {
-    display: inline-block;
-    margin-top: 40px;
-    font-size: 15px
-    border: 1px solid;
-    padding: 10px;
-    box-shadow: 5px 10px grey;
-}
-
 .carte {
+    overflow: hidden;
     margin-top: 3vw;
-    
 }
 
 .carte, .carte-image {
-    width: 80%;
-    height : auto; /*15vw; */
+    width: 15vw;
 }
 
 .carte-image {
-    display: inline-block;
+    display: block;
 }
 
 .galerie {
@@ -48,7 +35,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 3vw;
 }
 
 .video {
